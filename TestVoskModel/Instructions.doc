@@ -1,0 +1,12 @@
+Vosk is an offline open source speech recognition toolkit. 
+Vosk works for both small devices like Raspberry Pi and big clusters. 
+
+    1. Get the python module for Vosk, pip install vosk 
+
+    2. Go to Alpha Cepheimodels, https://alphacephei.com/vosk/models download the vosk-model-small-en-us-0.15 
+
+    3. Add model to Lib > SitePackages > same directory where other Python libraries are saved.  
+
+    4. Take the path to this folder and link to the program by replacing the model_path.  
+
+    Extra curiosity, github has extra examples for Vosk and microphone test, https://github.com/alphacep/vosk-api/tree/master/python 
